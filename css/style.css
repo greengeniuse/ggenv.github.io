@@ -647,8 +647,10 @@ a:focus {
 
 
 .customer_section {
-  background-color: #f8f8f8; /* Light background color to differentiate */
-  padding: 60px 0;
+  background-image: url(../images1/products-b.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
 }
 
 .customer_section .heading_container h2 {
@@ -659,8 +661,18 @@ a:focus {
 }
 
 .customer_section .box {
-  text-align: center;
-}
+  margin-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;}
 
 .customer_section .box .img-box {
   border-radius: 10px;
