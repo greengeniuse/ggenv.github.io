@@ -69,9 +69,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../images1/background.webp);
+  background-image: url(../images1/bg.webp);
   background-size: cover;
   background-attachment: fixed;
+  /* filter: brightness(0.8); */
 }
 
 .sub_page .hero_area {
@@ -95,15 +96,19 @@ body {
   margin: 0 auto;
 }
 
+/* .custom_nav-container{
+ background-color: #fbfdfd; 
+} */
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
   margin: 10px 30px;
   padding: 0;
   padding-bottom: 3px;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   position: relative;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 20px;
+  /* background-color: #fbfdfd; */
   /* font-weight: 300; */
 }
 
@@ -249,22 +254,22 @@ max-height: 40%;
 }
 .slider_section .detail-box p {
   font-size: 1.3rem;
-  color: #000000;
+  color: #ffffff;
 
 }
 .slider_section .detail-box h2 {
   font-size: 2.5rem;
-  color: #2f7a5d;
+  color: #ffffff;
 }
 .slider_section .detail-box h3 {
   /* font-size: 2.5rem; */
-  color: #3f9c78;
+  color: #ffffff;
 }
 .slider_section .detail-box h1 {
   font-size: 3.5rem;
   font-weight: bold;
   letter-spacing: .5rem;
-  color: #135c40;
+  color: #ffffff;
 }
 
 .slider_section .detail-box p {
@@ -275,10 +280,9 @@ max-height: 40%;
   display: inline-block;
   padding: 8px 35px;
   background-color: transparent;
-  border: 1.5px solid #130b0b;
-  
-  /* border-we; */
-  color: #0c0606;
+  border: 1.5px solid #ffffff;
+  font-weight: bold;
+  color: #ffffff;
   border-radius: 0px;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
@@ -434,6 +438,11 @@ max-height: 40%;
   margin-bottom: 15px;
 }
 
+.trainer_section .box .name h6 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
 .trainer_section .box .img-box {
   border-radius: 15px;
   overflow: hidden;
@@ -456,6 +465,12 @@ max-height: 40%;
   border-radius: 50px;
   margin-top: -25px;
 }
+
+/* .trainer_section .box .social_box img {
+max-height: 32;
+min-height: 32;
+max-width: 32;
+} */
 
 .contact_section {
   position: relative;
